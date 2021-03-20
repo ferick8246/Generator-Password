@@ -35,3 +35,7 @@ if ((lower === false) &&
    (numeric === false) &&
 
    (symbol === false)){
+
+       alert("At least one character type must be chosen for password!");
+
+       return ("Bad input. Password not generated.")}

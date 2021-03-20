@@ -25,3 +25,13 @@ function generatePssword () {
   var numeric= window.confirm("Do you want numbers?");
   
   var symbol= window.confirm("Do you want special characters?");
+
+  // Check to see if the user chose at least one character type to be included into the password.
+
+if ((lower === false) &&
+
+   (upper === false) &&
+
+   (numeric === false) &&
+
+   (symbol === false)){

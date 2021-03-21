@@ -61,7 +61,7 @@ if (lower === true){
   
   password += lowerCaseCharacters[ Math.floor (Math.random() * lowerCaseCharacters.length)];
   
-  countofPswchar ++};
+  countofPswchar +++};
 
 if (upper === true){
 

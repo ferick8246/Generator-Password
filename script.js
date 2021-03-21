@@ -39,3 +39,17 @@ if ((lower === false) &&
        alert("At least one character type must be chosen for password!");
 
        return ("Bad input. Password not generated.")}
+
+       let lowerCaseCharacters = "abcdefghijklmnopqrstuvwxyz"
+
+       let upperCaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+       
+       let numericalCharacters = "0123456789"
+       
+       let spacialCharacters= "~!@#$%^&*_’?><*-/"
+       
+       let availableCharacters = "";
+       
+       let countofPswshar= 0;
+       
+       let password= "";

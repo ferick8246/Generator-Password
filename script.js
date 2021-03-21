@@ -93,3 +93,13 @@ for (countofPswchar < length; countofPswchar++){
 
   password += availableCharacters [Math.floor(Math.random() * availableCharacters.length)]};
 return password};
+
+//write password to the #password input 
+
+function writePassword() {
+
+  var password = generatePssword();
+  var passwordText = document.querySelector("#password")
+  passwordText.value = password};
+
+// 

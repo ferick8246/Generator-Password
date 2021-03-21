@@ -86,3 +86,10 @@ if (symbol === true){
       password += specialCharacters[ Math.floor (Math.random() * specialCharacters.length)];
       
       countofPswchar ++};
+
+// Generate the rest of the word
+
+for (countofPswchar < length; countofPswchar++){
+
+  password += availableCharacters [Math.floor(Math.random() * availableCharacters.length)]};
+return password};

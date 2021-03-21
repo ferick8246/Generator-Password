@@ -53,3 +53,12 @@ if ((lower === false) &&
        let countofPswshar= 0;
        
        let password= "";
+
+
+if (lower === true){
+
+  availableCharacters += lowerCaseCharacters;
+  
+  password += lowerCaseCharacters[ Math.floor (Math.random() * lowerCaseCharacters.length)];
+  
+  countofPswchar ++};

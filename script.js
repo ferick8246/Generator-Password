@@ -1,5 +1,5 @@
 // Assignment Code
-var generateBtn = document.querySelector("#generate");
+ var generateBtn = document.querySelector("#generate");
  var newPasskey = document.querySelector("#password");
 
 function generatePssword () {
@@ -89,10 +89,14 @@ if (symbol === true){
 
 // Generate the rest of the word
 
-for (countofPswchar < length; countofPswchar++){
+for (var countofPswchar; countofPswchar < length; countofPswchar++) {
 
-  password += availableCharacters [Math.floor(Math.random() * availableCharacters.length)]};
-return password};
+  password += availableCharacters [ Math.floor(Math.random() * availableCharacters.length)]
+};
+
+return password
+
+};
 
 //write password to the #password input 
 

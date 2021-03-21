@@ -70,3 +70,19 @@ if (upper === true){
     password += upperCaseCharacters[ Math.floor (Math.random() * upperCaseCharacters.length)];
     
     countofPswchar ++};
+
+if (numeric === true){
+
+      availableCharacters += numericalCharacters;
+      
+      password += numericalCharacters[ Math.floor (Math.random() * numericalCharacters.length)];
+      
+      countofPswchar ++};
+      
+if (symbol === true){
+      
+      availableCharacters += specialCaseCharacters;
+      
+      password += specialCharacters[ Math.floor (Math.random() * specialCharacters.length)];
+      
+      countofPswchar ++};

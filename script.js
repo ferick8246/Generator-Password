@@ -69,7 +69,8 @@ if (upper === true){
     
     password += upperCaseCharacters[ Math.floor (Math.random() * upperCaseCharacters.length)];
     
-    countofPswchar ++};
+    countofPswchar ++
+  };
 
 if (numeric === true){
 
@@ -77,7 +78,8 @@ if (numeric === true){
       
       password += numericalCharacters[ Math.floor (Math.random() * numericalCharacters.length)];
       
-      countofPswchar ++};
+      countofPswchar ++
+};
       
 if (symbol === true){
       
@@ -85,7 +87,8 @@ if (symbol === true){
       
       password += specialCharacters[ Math.floor (Math.random() * specialCharacters.length)];
       
-      countofPswchar ++};
+      countofPswchar ++
+};
 
 // Generate the rest of the word
 
@@ -104,7 +107,9 @@ function writePassword() {
 
   var password = generatePssword();
   var passwordText = document.querySelector("#password")
-  passwordText.value = password};
+  passwordText.value = password
+
+};
 
 // Add event listener to generate button 
 generateBtn.addEventListener("click", writePassword);
